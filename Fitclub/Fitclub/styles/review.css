@@ -1,0 +1,66 @@
+.review {
+    font-family: var(--fonte-principal);
+    color: var(--branco);  
+}
+
+.container_review {
+    display: flex;
+    background-color: var(--cinza-escuro);
+    margin-top: 5em;
+    padding:  5em 23em 2em 23em;
+}
+
+.info_review {
+    padding: 0 2em;
+}
+
+.titulo_review {
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 1em;
+}
+
+.texto_review {
+    padding-right: 15em;
+    line-height: 1.5;
+    padding-bottom: 2em;
+}
+
+.aspas {
+    padding-top: 2.5em;
+}
+
+.img_estrela {
+    width: 25px;
+    height: auto;
+}
+
+.pessoa_review {
+    display: flex;
+    margin-top: 4em;
+    justify-content: space-between;
+}
+
+.pessoa {
+    display: flex;
+}
+
+.perfil {
+    width: 80px;
+    border-radius: 100%;
+}
+
+.info_pessoa {
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+.nome {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.btn_review {
+    padding-top: 1em;
+}

@@ -1,0 +1,67 @@
+.motivo {
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 42em;
+    position: relative;
+}
+
+.info_motivo {
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    display: flex;
+    margin: 5em;
+    padding: 2em;
+    gap: 2em;
+    background-color: var(--cinza-escuro);
+    position: absolute;
+    top: 290%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.titulo_motivo {
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 1em;
+}
+
+.descricao_motivo {
+    color: var(--cinza-claro);
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.img_motivo {
+    width: 60%;
+    align-items: center;
+    margin: 0 24em;
+    border-radius: 20px;
+    z-index: 0;
+}
+
+.container_info_motivo {
+    display: flex;
+}
+
+.container_texto_info {
+    padding-left: 1em;
+}
+
+.titulo_info_motivo {
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.descricao_info_motivo {
+    color: var(--cinza-claro);
+}
+
+.img_info_motivo {
+    padding-top: 15px;
+}

@@ -1,0 +1,28 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/programas.css");
+@import url("styles/class.css");
+@import url("styles/motivo.css");
+@import url("styles/plano.css");
+@import url("styles/review.css");
+@import url("styles/rodape.css");
+
+
+:root {
+    --cor-de-fundo: #111317;
+    --branco: #ffffff;
+    --cinza-claro: #d1d5db;
+    --cinza-medio: #35373b;
+    --cinza-escuro: #1f2125;
+    --laranja-escuro: #d79447;
+    --laranja-claro: #f9ac54;
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Arial', sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+
+
