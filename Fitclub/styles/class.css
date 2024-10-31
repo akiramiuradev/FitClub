@@ -1,0 +1,50 @@
+.reserva_aula {
+    display: flex;
+    margin: 10em 18em;
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+}
+
+.img_reserva_aula {
+    position: relative;
+}
+
+.img_class1 {
+    width: 500px;
+    height: auto;
+    margin-left: 5em;
+    border-radius: 10px;
+}
+
+.img_class2 {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.info_reserva {
+    padding: 2em 0 2em 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulo_reserva {
+    font-weight: 600;
+    font-size: 30px;
+    padding-right: 12em;
+    padding-bottom: 1em;
+}
+
+.descricao_reserva {
+    color: var(--cinza-claro);
+    font-size: 18px;
+    padding-right: 2em;
+    line-height: 1.5;
+    padding-bottom: 4em;
+}
