@@ -25,7 +25,10 @@
 
 .info_rodape {
   margin-left: 3em;
-  margin-right: 5em;
+}
+
+.lista_link_rodape {
+    margin-right: 3em;
 }
 
 .titulo_info_rodape {
@@ -64,7 +67,7 @@
     background-color: var(--laranja-claro);
     color: var(--branco);
     border-radius: 20px;
-    padding: 0.5em;
+    padding: 1em;
     transition: background-color 0.3s;
     font-size: 20px;
     font-weight: 600;
